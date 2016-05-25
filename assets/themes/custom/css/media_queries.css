@@ -1,0 +1,67 @@
+/*
+*	DESKTOPS
+*/
+/* 12" & 10" desktop */
+@media screen and (min-width: 1024px) {
+    .side-nav{width: 181px !important;}
+}
+/* 13" desktop */
+@media screen and (min-width: 1280px) {
+    .side-nav{width: 224px !important;}
+}
+/* 15" desktop */
+@media screen and (min-width: 1366px) {
+    .side-nav{width: 235px !important;}
+}
+/* 19" desktop */
+@media screen and (min-width: 1440px) {
+    .side-nav{width: 250px !important;}
+}
+/* 20" desktop */
+@media screen and (min-width: 1600px) {
+    .side-nav{width: 276px !important;}
+}
+/* 22" desktop */
+@media screen and (min-width: 1680px) {
+    .side-nav{width: 290px !important;}
+}
+/* 23" & 24" desktop */
+@media screen and (min-width: 1920px) {
+    .side-nav{width: 330px !important;}
+}
+
+/*
+*	Hand held
+*/
+/* Small desktop screens & Tablets */
+@media screen and (max-width: 1024px) {
+    .get-installs input[type="text"]{width: 55%;}
+	.get-installs button{width: 36%;}
+	.install-form {min-height: 49px;}
+}
+/* Tablets */
+@media screen and (max-width: 800px) {
+	main{padding-left:0;}
+	.generated-first {
+		float:none;
+		top: -30px;
+	}
+	.generated-last {
+		float:none;
+		top: 30px;
+	}
+	img.responsive-img, video.responsive-video{max-width:280px !important;}
+}
+/* 7inch tabs & Mobile phones */
+@media screen and (max-width: 603px) {
+    .get-installs input[type="text"]{width: 96%;margin-left: 4px;}
+	.get-installs button{width: 100%;}
+	.install-form {min-height: 91px;}
+	.home-header .card-content {padding:0;}
+	.header-signup {margin:0;}
+	.home-header{padding-top: 20%;}
+	.dnd_countdown_inner:first-of-type > .countdown, .dnd_countdown_inner:first-of-type > span { margin-left: 26px !important;}
+	.underlined ol > li{margin:0;}
+	.no-small-padding{padding:0 !important;}
+	.no-small-padding .button-collapse{text-align:center;width: 100%;}
+}
