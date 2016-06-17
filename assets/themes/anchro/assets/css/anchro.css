@@ -486,7 +486,7 @@ footer .our-history h6 {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 24px;
 }
 footer .our-history .history-item {
   margin-bottom: 30px;
@@ -500,8 +500,8 @@ footer .our-history .history-item img {
   }
 }
 footer .our-history .history-item h4 {
-  padding-top: 5px;
-  margin-left: 85px;
+  padding-top: 0px;
+  margin-left: 84px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -525,7 +525,7 @@ footer .our-history .history-item .line-dec {
   }
 }
 footer .our-history .history-item p {
-  margin-left: 85px;
+  margin-left: 27px;
 }
 @media (max-width: 991px) {
   footer .our-history .history-item p {

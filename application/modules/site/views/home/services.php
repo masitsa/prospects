@@ -23,21 +23,26 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="section-heading-left text-left">
-									<img src="<?php echo base_url().'assets/logo/'.$logo;?>" alt="<?php echo $company_name;?>" height="50">
-									<h2>Our <em>Services</em></h2>
-									<p>Here are some of <span>the services</span> we offer.</p>
-								</div>
+								
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-4">
+							 <div class="section-heading-middle text-center">
+                    			<h2>About <em><?php echo $company_name;?></em></h2>
+                    			<img src="<?php echo base_url().'assets/logo/'.$logo;?>" alt="<?php echo $company_name;?>" height="150">
+                			 </div>
 								<div class="left-text">
-									<p>Flexitarian retro affogato listicle truffaut gluten-free and ready made. Kickstarter organic paleo roof party, crucifi craft beer tumblr bicycleseitan scenester.<br><br>Craft to be normcore man braid slow-carb cliche komb, lomo post-ironic typewriter limuzine portland.</p>
-									<a href="<?php echo site_url().'services';?>">View all services now</a>
+								<p>Prospects Communication is a multi-media communications and marketing company specializing <br>in behavioral change and development communication, and social marketing.</p>
+									<a href="<?php echo site_url().'services';?>">View More About Us</a>
 								</div>
 							</div>
 							<div class="col-md-8">
+							<div class="section-heading-left text-left">
+									<img src="<?php echo base_url().'assets/logo/'.$logo;?>" alt="<?php echo $company_name;?>" height="50">
+									<h2>Our <em>Services</em></h2>
+									<p>Here ia a brief description of some <span>services</span> we offer.<br>Read more about our service from our services link.</p>
+								</div>
 								<div class="services-item">
                                 	<?php
 									$services = $this->site_model->get_active_services();

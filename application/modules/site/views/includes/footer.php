@@ -23,14 +23,32 @@
 						<div class="row">
 							<div class="col-md-4">
 								<div class="about-us">
-									<img src="<?php echo base_url().'assets/logo/'.$logo;?>" alt="<?php echo $company_name;?>" class="logo">
+									<img src="<?php echo base_url().'assets/logo/'.$logo;?>" alt="<?php echo $company_name;?>" class="logo"><br><br><br><br>
+									<div class="left-text">
+								      <p>Prospects Communication is a multi-media communications and marketing company specializing <br>in behavioral change and development communication, and social marketing.</p>									  
+								    </div>								    
 									<ul class="social-icons">
 										<li><a href="<?php echo $facebook;?>"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="<?php echo $linkedin;?>"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
+									</ul>												  
 								</div>
 							</div>
-							<div class="col-md-offset-5 col-md-3">
+							<div class="col-md-5">
+								<div class="our-history">
+									<h6>Our History</h6>
+									<div class="history-item">
+										<h4>2016</h4>
+										<div class="line-dec"></div>
+										<p>This year our company is doing one of the major projects.<br> We are yet to start anothher project.</p>
+									</div>
+									<div class="history-item">
+										<h4>2015</h4>
+										<div class="line-dec"></div>
+										<p>This marked the year we had ggreat achievements. Not only did we have great income<br> but we impacted positively the lives of very many youths and women.</p>
+									</div>
+								</div>
+							</div>							    							
+							<div class=" col-md-3">
 								<div class="contact-info">	
 									<h6>Contact Info</h6>
 									<ul class="contact-list">
