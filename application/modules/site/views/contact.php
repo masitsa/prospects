@@ -81,7 +81,7 @@
     </div>
 </section>
 
-<section class="contact-info">
+<!-- <section class="contact-info"> 
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-ms-4 col-xs-12">
@@ -104,14 +104,15 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="map-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="content-map">
-                    <div class="contact-map" style="height: 420px;"></div>
+                    <!-- <div class="contact-map" style="height: 420px;"></div> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.772112762893!2d36.807697314157565!3d-1.3121379360235506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1058c1a12015%3A0x4578a9aa2d1ceecd!2sFunguo+Estate!5e0!3m2!1sen!2ske!4v1466402965431" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
